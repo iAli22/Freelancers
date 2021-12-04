@@ -1,4 +1,4 @@
- # Getting Started with Qaff App
+ # Getting Started with Freelancers App
 
 ## Available Scripts
 
