@@ -1,0 +1,101 @@
+@import "../../styles/_variables.scss";
+
+.profileContent {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 10px;
+
+  h5 {
+    span {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      border: 1px solid #c9c9c9;
+      cursor: pointer;
+
+      svg {
+        fill: $black;
+        width: 12px;
+      }
+    }
+  }
+  h4 {
+    font-size: 18px;
+  }
+
+  a {
+    span {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      border: 1px solid #c9c9c9;
+      cursor: pointer;
+
+      svg {
+        fill: $black;
+        width: 12px;
+      }
+    }
+  }
+}
+.profileRate {
+  li {
+    display: inline-block;
+    margin-right: 5%;
+    &:first-child {
+      span {
+        color: #0194ff;
+        margin-left: 10px;
+      }
+    }
+    &:nth-child(2) {
+      span {
+        color: #ff0100;
+        margin-left: 10px;
+      }
+    }
+    &:nth-child(3) {
+      span {
+        font-size: 12px;
+        background: #ffffff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        margin-inline-start: 5px;
+        border: 1px solid #c9c9c9;
+        cursor: pointer;
+
+        svg {
+          fill: $black;
+          width: 12px;
+        }
+      }
+    }
+  }
+}
+.profilGallery {
+  width: 100%;
+  text-align: center;
+  margin: 5% 0px;
+}
+.galleryThumb {
+  background: rgba(237, 240, 243, 0.7);
+  padding: 20px;
+  border: 7px solid #ffffff;
+  img {
+    padding-bottom: 20px;
+  }
+  a {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 7px 0px;
+    display: inline-block;
+  }
+}
+.galaryP {
+  min-height: 100px;
+}

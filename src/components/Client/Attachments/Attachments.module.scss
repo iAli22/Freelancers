@@ -1,0 +1,48 @@
+.attachments {
+  margin: 1rem 0;
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 9rem));
+    gap: 1rem;
+
+    .filesContainer {
+      position: relative;
+      img {
+        min-width: 100%;
+        height: 80px;
+        object-fit: cover;
+      }
+      p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0;
+        padding: 0;
+        font-size: 12px !important;
+        text-align: center;
+
+        svg {
+          position: initial !important;
+          box-shadow: none !important;
+          width: 20px;
+          height: 20px;
+          border-radius: 0;
+        }
+      }
+      svg {
+        position: absolute;
+
+        right: 1%;
+        top: 1%;
+        z-index: 9999;
+        fill: #000;
+
+        padding: 0.2rem;
+        background-color: #fff;
+        border-radius: 50%;
+        cursor: pointer;
+        box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

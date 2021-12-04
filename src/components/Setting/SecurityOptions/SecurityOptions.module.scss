@@ -1,0 +1,128 @@
+@import "../../../styles/_variables.scss";
+
+.offerContent {
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px 0px;
+  padding: 20px;
+  textarea {
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+  }
+  button {
+    color: #000000;
+    border: 1px solid #1264d4;
+    background: none;
+    margin-top: 20px;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+    color: #1264d4 !important;
+  }
+  h2 {
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+    }
+  }
+  p {
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 0px;
+    }
+  }
+  h4 {
+    color: #ff5100;
+    span {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+      margin-left: 10px;
+      svg {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  .availableLink {
+    cursor: pointer;
+    svg {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-right: 5px;
+      border: 1px solid #c9c9c9;
+      color: #000000;
+    }
+  }
+  .PasswordSecurity {
+    button {
+      border: none;
+      outline: none;
+      box-shadow: none;
+    }
+    h2 {
+      border-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    svg {
+      float: right;
+      float: right;
+      padding-top: 13px;
+      padding-left: 15px;
+    }
+    p {
+      color: #212529;
+      padding-top: 5px;
+    }
+    .paddingTop {
+      padding-top: 20px;
+    }
+    .changeTerms {
+      background: #00c7d4;
+      border-radius: 50px;
+      border: 0px !important;
+      padding: 10px 30px;
+      color: #ffffff;
+      float: left;
+      margin-top: 0px;
+    }
+  }
+}
+
+.mobileAppDesign {
+  margin-top: 60px;
+  span {
+    display: block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-family: "Conv_SEGOEUI";
+  }
+  h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+  ul {
+    li {
+      display: inline-block;
+      width: 19%;
+      svg {
+        color: #00c7d4;
+      }
+    }
+    padding: 0px;
+  }
+}

@@ -1,0 +1,227 @@
+.modelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #efefef;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 8%);
+  border-radius: 18px;
+  padding: 1.5rem 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+  img {
+    margin-bottom: 0.5rem;
+  }
+  &:hover {
+    background: #3b5ed2;
+    color: #fff;
+  }
+}
+
+// p {
+//   margin: 0 !important;
+// }
+.modelTitle {
+  color: #154ed4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.offerContent {
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0px;
+  input {
+    width: 100%;
+    border: 1px solid #ced4da !important;
+    border-radius: 0;
+    padding: 0.3rem 0.2rem;
+
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: #86b7fe !important;
+    }
+  }
+  h2 {
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+    }
+  }
+  p {
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 0px;
+    }
+  }
+  h4 {
+    color: #ff5100;
+    span {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+      margin-left: 10px;
+      .bi {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  label {
+    span {
+      font-size: 12px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    margin-bottom: 10px;
+  }
+  select {
+    border-radius: 0px;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #ced4da;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    // padding-right: 22%;
+  }
+  textarea {
+    resize: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  .formControl {
+    border-radius: 0px;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    // padding-right: 25%;
+  }
+  .formControl.no-title {
+    padding-right: 0.75rem;
+  }
+  .inputGroupPrepend {
+    label {
+      border-radius: 0px;
+      .bi {
+        color: #000000;
+      }
+    }
+    position: absolute;
+    z-index: 1;
+  }
+  button {
+    color: #000000;
+    border: 1px solid #1264d4;
+    background: none;
+    margin-top: 20px;
+
+    svg {
+      margin-inline-start: 5px;
+    }
+    &:hover {
+      svg {
+        fill: #fff;
+      }
+    }
+  }
+  svg {
+    fill: #1264d4;
+  }
+}
+.offerContentTitle {
+  overflow: hidden;
+  h2 {
+    float: right;
+  }
+}
+
+.presentation {
+  color: #ffffff !important;
+  border-radius: 50px !important;
+  background-image: linear-gradient(to right, #154ed4, #00c7d4) !important;
+  border: 0px !important;
+  padding: 15px 30px !important;
+  width: 100% !important;
+}
+.cancel {
+  color: #110c0c !important;
+  border-radius: 50px !important;
+  background: none !important;
+  border: 1px solid #ff0000 !important;
+  padding: 15px 30px !important;
+  width: 100% !important;
+}
+
+//
+.inputContainer {
+  display: flex;
+  flex: 1;
+
+  .inputLabel {
+    width: 25%;
+
+    padding: 0.3rem 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-inline-end: none !important;
+  }
+  input {
+    width: 75%;
+    border: 1px solid #ced4da;
+    border-inline-start: none;
+
+    &:focus {
+      outline: none;
+      border-color: #86b7fe !important;
+    }
+  }
+}
+
+.errors {
+  input {
+    border: 1px solid red !important;
+
+    &.expiation {
+      border-inline-start: 1px solid red !important;
+    }
+    border-inline-start: none !important;
+    &:focus {
+      border: 1px solid red !important;
+      border-inline-start: none !important;
+    }
+  }
+
+  textarea {
+    border: 1px solid red !important;
+    &:focus {
+      border: 1px solid red !important;
+    }
+  }
+
+  .inputLabel {
+    border: 1px solid red !important;
+    border-inline-end: none !important;
+  }
+}
+span.errors {
+  color: red;
+}
+input.completeBorder {
+  border-inline-start: 1px solid red !important;
+}

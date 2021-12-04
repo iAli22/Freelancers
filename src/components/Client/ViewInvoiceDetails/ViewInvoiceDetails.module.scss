@@ -1,0 +1,89 @@
+.offerContent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  button {
+    color: #000000;
+    border: 1px solid #1264d4;
+    background: none;
+    // margin-top: 20px;
+  }
+  svg {
+    color: #1264d4;
+  }
+  p {
+    margin: 0 !important;
+    font-family: "Conv_seguisb" !important;
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 0px;
+    }
+  }
+  h4 {
+    color: #ff5100;
+    span {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+      margin-left: 10px;
+      .bi {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+.changeTerms {
+  background: #00c7d4 !important;
+  border-radius: 50px;
+  border: 0px !important;
+  padding: 10px 30px;
+  color: #ffffff !important;
+  float: left;
+  margin-top: 0px !important;
+}
+.pay {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  h4 {
+    color: #ff5100;
+    text-align: left;
+    font-size: 18px !important;
+  }
+  h2 {
+    margin: 0px !important;
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+    }
+  }
+  p {
+    text-align: start;
+    margin-bottom: 0px;
+  }
+}
+
+.invoice {
+  background: none !important;
+  border: 1px solid #000000 !important;
+  color: #000000 !important;
+  border-radius: 50px !important;
+  margin-inline-end: 10px;
+  cursor: auto !important;
+}
+
+.bill {
+  button {
+    min-width: inherit;
+    padding: 5px 20px;
+    float: right;
+    // margin-left: 10px;
+  }
+}

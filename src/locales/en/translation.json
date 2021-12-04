@@ -1,0 +1,95 @@
+{
+  "title": "Qaff",
+  "whyQaff": {
+    "budget": {
+      "title": "Best Budget",
+      "desc": "for every business"
+    },
+    "quality": {
+      "title": "Quality work",
+      "desc": "done quickly"
+    },
+    "payments": {
+      "title": "Protected payments,",
+      "desc": "every time"
+    },
+    "support": {
+      "title": "24/7 support"
+    }
+  },
+  "navbar": {
+    "help": "Help & Support",
+    "learnMore": "Learn More",
+    "packages": "Packages & Plans"
+  },
+  "headlines": {
+    "futureAll": "Future for All.",
+    "trendingNow": "Trending Now",
+    "topCategories": "Top Categories",
+    "findBest": "Find Best",
+    "servicesForBusiness": "services for your business",
+    "getInspired": "Get Inspired",
+    "whyQaff": "Why Qaff? "
+  },
+  "paragraphs": {
+    "futureAllDesc": "QAFF a platform that brings together freelance professionals with employers and projects. The platform is characterized by the presence of many skills that allow the largest number of professionals to benefit and work.",
+    "findBestDesc": "It also includes many specializations, Qaff e-Marketing Company provides access to distinguished competencies under the name “Qaff” to benefit both government and private sector establishments and skilled individuals in support of initiatives that seek to develop the private sector."
+  },
+  "button": {
+    "showMore": "Show More",
+    "findWork": "Find Work",
+    "findCreative": "Find Creative",
+    "catalogue": "The <br /> Catalogue",
+    "forClient": "For Clients",
+    "forFreeLancers": "For Freelancers",
+    "signClient": "Sign In As Client",
+    "signFreeLance": "Sign In As Freelancer",
+    "bid": "BID",
+    "now": "Now",
+    "sort": "Sort By",
+    "filter_by": "Filter By",
+    "newest": "Newset",
+    "oldest": "Oldest",
+    "highest_price": "Highest Price",
+    "lowest_price": "Lowest Price",
+    "top": "Top",
+    "relevance": "Relevance",
+    "rating_high": "Rating High"
+  },
+  "filter": {
+    "categories": "Categories",
+    "locations": "Locations",
+    "languages": "Languages",
+    "rating": "Rating",
+    "skills": "Skills",
+    "num_proposals": "Number Of proposals",
+    "project_timeline": "Project timeline"
+  },
+  "profile": {
+    "job_success": "Job Success Rating",
+    "lang": "Using Language",
+    "skills": "Skills",
+    "education": "Educations",
+    "experience": "Experiences",
+    "works": "Works",
+    "message": "Message",
+    "contact": "Contact",
+    "invitation": "Invitation"
+  },
+  "footer": {
+    "terms": "Terms",
+    "aboutQaff": "About Qaff",
+    "categories": "Categories",
+    "projects": "Projects",
+    "freelancers": "Freelancers",
+    "aboutus": "About Us",
+    "howWork": "How It Work",
+    "security": "Security",
+    "privacy": "Privacy",
+    "termsConditions": "Terms and Conditions",
+    "copyrightPolicy": "Copyright Policy",
+    "codeConduct": "Code of Conduct",
+    "availableOn": "App available on",
+    "copyright": "© Copyright 2020 Qaff. All rights reserved."
+  }
+}

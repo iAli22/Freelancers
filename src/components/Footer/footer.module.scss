@@ -1,0 +1,193 @@
+@import "../../styles/_variables.scss";
+
+.footer {
+  background: #fff;
+  padding: 0 0 30px 0;
+  color: #212529;
+  font-size: 14px;
+
+  .footerBtm {
+    border-top: 1px solid rgba(112, 112, 112, 0.2);
+  }
+  .footerNewsletter {
+    padding: 50px 0;
+    background: #fef8f5;
+    text-align: center;
+    font-size: 15px;
+    h4 {
+      font-size: 24px;
+      margin: 0 0 20px 0;
+      padding: 0;
+      line-height: 1;
+      font-weight: 600;
+      color: #4e4039;
+    }
+    form {
+      margin-top: 30px;
+      background: #fff;
+      padding: 6px 10px;
+      position: relative;
+      border-radius: 4px;
+      box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      input[type="email"] {
+        border: 0;
+        padding: 4px 4px;
+        width: calc(100% - 100px);
+      }
+      input[type="submit"] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        border: 0;
+        background: none;
+        font-size: 16px;
+        padding: 0 20px;
+        background: #eb5d1e;
+        color: #fff;
+        transition: 0.3s;
+        border-radius: 4px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+        &:hover {
+          background: #c54811;
+        }
+      }
+    }
+  }
+  .footerTop {
+    padding: 60px 0 30px 0;
+    background: #fff;
+    .footerContact {
+      margin-bottom: 30px;
+      h4 {
+        font-size: 22px;
+        margin: 0 0 30px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-weight: 700;
+      }
+      p {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Conv_SEGOEUI";
+        color: #000;
+        margin: 10px 0px;
+      }
+      ul {
+        margin: auto;
+        text-align: right;
+        padding: 0px;
+        li {
+          display: inline-block;
+          padding: 10px;
+        }
+      }
+    }
+    h4 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #212529;
+      position: relative;
+      padding-bottom: 12px;
+    }
+    .footerLinks {
+      margin-bottom: 30px;
+      ul {
+        list-style: none;
+        padding: 30px;
+        margin: 0;
+        padding-right: 0px;
+        i {
+          padding-right: 2px;
+          color: #f39e7a;
+          font-size: 18px;
+          line-height: 1;
+        }
+        li {
+          padding: 20px 0;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid rgba(112, 112, 112, 0.2);
+          &:first-child {
+            padding-top: 0;
+          }
+        }
+        a {
+          font-family: "Conv_SEGOEUI";
+          color: #000000;
+          transition: 0.3s;
+          display: inline-block;
+          line-height: 1;
+          font-size: 18px;
+          &:hover {
+            text-decoration: none;
+            color: #00c7d4;
+          }
+        }
+      }
+    }
+    .socialLinks {
+      a {
+        font-size: 18px;
+        display: inline-block;
+        background: #eb5d1e;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        &:hover {
+          background: #ef7f4d;
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    float: left;
+  }
+  .credits {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    color: #212529;
+
+    ul {
+      padding: 0;
+
+      li {
+        display: inline-block;
+        padding: 0px 10px;
+      }
+    }
+
+    a {
+      color: #eb5d1e;
+    }
+  }
+}
+@media (max-width: 575px) {
+  .footer {
+    .copyright {
+      float: none;
+      -moz-text-align-last: center;
+      text-align-last: center;
+      padding: 3px 0;
+    }
+    .credits {
+      float: none;
+      -moz-text-align-last: center;
+      text-align-last: center;
+      padding: 3px 0;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../styles/_variables.scss";
+
+.roundedBtn {
+  border-radius: $borderRadius;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  font-size: $fontSmall;
+  text-transform: capitalize;
+  display: inline-block;
+  cursor: pointer;
+
+  margin-inline-end: 0.5rem;
+}

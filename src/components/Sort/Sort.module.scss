@@ -1,0 +1,25 @@
+@import "../../styles/_variables.scss";
+
+.sortContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 25%;
+  div:first-of-type {
+    width: 100%;
+  }
+}
+
+@media (max-width: "600px") {
+  .filter {
+    width: 40%;
+    div:first-of-type {
+      width: 100%;
+    }
+  }
+}

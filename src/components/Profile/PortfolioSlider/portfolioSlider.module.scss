@@ -1,0 +1,33 @@
+@import "../../../styles/_variables.scss";
+
+.inspiredSwiper {
+  padding: 2rem 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  .prev,
+  .next {
+    position: absolute;
+    inset-block-start: 42%;
+    z-index: 2;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 35px #00000029;
+  }
+
+  .prev {
+    inset-inline-start: 10%; /* evaluates to left in ltr and right in rtl */
+  }
+
+  .next {
+    inset-inline-end: 10%; /* evaluates to right in ltr and left in rtl */
+  }
+}

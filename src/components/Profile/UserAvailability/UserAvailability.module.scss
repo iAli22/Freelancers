@@ -1,0 +1,106 @@
+@import "../../../styles/_variables.scss";
+
+.userAvailability {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 15px;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.1);
+  font-weight: bold;
+  h3 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 18px !important;
+  }
+}
+.available {
+  h4 {
+    span {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      border: 1px solid #c9c9c9;
+      cursor: pointer;
+
+      svg {
+        fill: $black;
+        width: 12px;
+      }
+    }
+  }
+}
+
+.experience {
+  h4 {
+    span {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      border: 1px solid #c9c9c9;
+      cursor: pointer;
+      svg {
+        fill: $black;
+        width: 12px;
+      }
+    }
+  }
+  ul {
+    padding: 0px;
+    font-size: 11px;
+    color: #000000;
+    margin-top: 20px;
+    li {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #000000;
+      border-radius: 20px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      a {
+        color: #000000;
+      }
+    }
+  }
+  .language {
+    li {
+      width: 40%;
+      border: 0px;
+      padding: 0px;
+    }
+    &:nth-child(odd) {
+      font-size: 15px;
+    }
+  }
+}
+.profileContent {
+  h5 {
+    .bi {
+      font-size: 12px;
+      background: #ffffff;
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      border: 1px solid #c9c9c9;
+      color: #000000;
+    }
+  }
+}
+.availableLink {
+  .bi {
+    font-size: 12px;
+    background: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-inline-start: 5px;
+    border: 1px solid #c9c9c9;
+    color: #000000;
+  }
+}
+.userAvailability {
+  ul {
+    margin-top: 30px;
+  }
+}

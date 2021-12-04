@@ -1,0 +1,36 @@
+@import "../../styles/_variables.scss";
+
+.circlePercentage {
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 5px solid #e7e7e7;
+    margin: 0 auto;
+    line-height: 45px;
+  }
+  &:hover {
+    outline: #00c7d4 solid 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .circle {
+      width: 60px;
+      height: 60px;
+      border: double 5px transparent;
+      border-radius: 100px;
+      background-image: linear-gradient(white, white),
+        radial-gradient(circle at top left, #ff0100, #0194ff);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      padding: 0px;
+    }
+  }
+}
+.latestJob {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin: 15px 0px;
+  padding: 20px;
+}

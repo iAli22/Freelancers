@@ -1,0 +1,102 @@
+@import "../../../styles/_variables.scss";
+
+.contactsDetails {
+  svg {
+    cursor: pointer;
+  }
+  ul {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    li {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      &:last-of-type {
+        text-align: center !important;
+        overflow: initial !important;
+        text-overflow: initial;
+        white-space: initial;
+        button {
+          width: 100%;
+          all: initial;
+          &:focus {
+            box-shadow: none !important;
+          }
+          &::after,
+          &:active {
+            all: initial;
+          }
+          svg {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: #000;
+          }
+        }
+      }
+      &:first-child {
+        text-align: start;
+        overflow: initial;
+      }
+      display: inline-block;
+      text-align: center;
+      h2 {
+        // text-overflow: ellipsis;
+        // white-space: nowrap;
+        // overflow: hidden;
+        margin-bottom: 0 !important;
+        span {
+          display: block;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-top: 10px;
+          font-family: "Conv_SEGOEUI";
+          img {
+            margin-left: 7px;
+            height: 15px;
+          }
+        }
+      }
+      // p {
+      //   span {
+      //     font-size: 14px;
+      //     color: rgba(0, 0, 0, 0.5);
+      //     margin-top: 10px;
+      //     font-family: "Conv_SEGOEUI";
+      //     margin-left: 10px;
+      //   }
+      // }
+      button {
+        background: #00c7d4;
+        border-radius: 50px;
+        border: 0px;
+        padding: 10px 30px;
+      }
+      &:last-child {
+        text-align: left;
+        font-size: 35px;
+      }
+    }
+    li.price {
+      color: #ff5100;
+    }
+  }
+}
+.portfolio {
+  .portfolioItem {
+    margin-bottom: 30px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.changeTerms {
+  background: #00c7d4 !important;
+  border-radius: 50px !important;
+  border: 0px !important;
+  padding: 10px 30px !important;
+  color: #ffffff !important;
+  float: left !important;
+  margin-top: 0px !important;
+}

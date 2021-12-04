@@ -1,0 +1,99 @@
+.contacts {
+  h5 {
+    float: right;
+  }
+}
+.contactsSearch {
+  svg {
+    position: absolute;
+    z-index: 1;
+    padding: 7px;
+    width: 30px;
+    height: 30px;
+  }
+  .formControl {
+    border: 0px;
+    border-radius: 7px;
+    position: relative;
+    color: #000000;
+    padding-right: 25px;
+  }
+}
+.contactsSelect {
+  div:first-of-type {
+    width: 100%;
+    // div &:first-child {
+    //   width: 100%;
+    // }
+  }
+}
+.contactsDetails {
+  ul {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    li {
+      &:first-child {
+        text-align: right;
+      }
+      display: inline-block;
+      text-align: center;
+      h2 {
+        span {
+          display: block;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-top: 10px;
+          font-family: "Conv_SEGOEUI";
+        }
+      }
+      p {
+        span {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-top: 10px;
+          font-family: "Conv_SEGOEUI";
+          margin-left: 10px;
+        }
+      }
+      button {
+        background: #00c7d4;
+        border-radius: 50px;
+        border: 0px;
+        padding: 10px 30px;
+      }
+      &:last-child {
+        text-align: left;
+        font-size: 35px;
+      }
+    }
+    li.price {
+      color: #ff5100;
+    }
+  }
+}
+.tabsContainer {
+  align-items: center;
+  div {
+    cursor: pointer;
+  }
+  h5 {
+    margin-bottom: 0 !important;
+    margin-inline-end: 10px;
+  }
+  a {
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 20px;
+    span:last-child {
+      color: #1264d4;
+      margin-inline-start: 5px;
+    }
+  }
+}
+
+.tabLink {
+  color: inherit !important;
+}

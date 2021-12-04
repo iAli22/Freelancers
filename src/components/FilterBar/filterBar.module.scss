@@ -1,0 +1,50 @@
+@import "../../styles/_variables.scss";
+.filterBar {
+  .accordion {
+    &:not(:last-child) {
+      margin-bottom: 0.8rem;
+    }
+    &__item {
+      border: none !important;
+      background-color: transparent;
+    }
+    &__header {
+      margin-bottom: 0 !important;
+      button {
+        border: none;
+        box-shadow: none;
+        background-color: $blue-100 !important;
+        color: #343a40;
+        padding: 1rem 0.4rem;
+        text-align: start;
+
+        &::after {
+          margin-inline-start: auto !important;
+          margin-inline-end: 0 !important;
+        }
+      }
+    }
+
+    &__body {
+      padding: 1rem 0.4rem;
+
+      background-color: $blue-100 !important;
+    }
+  }
+  .singleValue {
+    display: none !important;
+  }
+}
+
+.groupBadgeStyles {
+  background-color: #ebecf0;
+}
+.groupStyles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#react-select-5-listbox {
+  z-index: 1000;
+}

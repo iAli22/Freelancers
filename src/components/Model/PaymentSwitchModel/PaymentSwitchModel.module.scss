@@ -1,0 +1,20 @@
+.modelContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #efefef;
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 8%);
+  border-radius: 18px;
+  padding: 1.5rem 0;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  img {
+    margin-bottom: 0.5rem;
+  }
+  &:hover {
+    background: #3b5ed2;
+    color: #fff;
+  }
+}

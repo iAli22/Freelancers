@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="75" viewBox="0 0 75 75">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.863" y1="-0.508" x2="0.289" y2="1.298" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff0100"/>
+      <stop offset="0.274" stop-color="#0063d4"/>
+      <stop offset="0.572" stop-color="#f24bc9"/>
+      <stop offset="0.579" stop-color="#00c7d4"/>
+      <stop offset="1" stop-color="#0194ff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-556 -451)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="37.5" cy="37.5" r="37.5" transform="translate(556 451)" fill="url(#linear-gradient)"/>
+    <path id="Icon_metro-paypal" data-name="Icon metro-paypal" d="M15.473,19.212h2.765c6.006,0,9.414-2.7,10.5-8.266.035-.183.067-.36.093-.537a8.8,8.8,0,0,0,.1-1.04c.01-.223.017-.355.015-.478a4.406,4.406,0,0,0-.36-1.732,5.956,5.956,0,0,0-1.022-1.53c-1.422-1.617-3.9-2.545-6.856-2.545H11.29A1.349,1.349,0,0,0,9.958,4.223l-1.7,10.951L6.144,28.815a.81.81,0,0,0,.8.935h4.62l1.415-8.4a2.517,2.517,0,0,1,2.495-2.133Zm15.171-7.645c-1.32,6.285-5.595,9.619-12.408,9.619H15.473a.552.552,0,0,0-.547.47L13.085,33.083H17.93a1.179,1.179,0,0,0,1.165-.995l.048-.25.925-5.856.06-.323a1.179,1.179,0,0,1,1.165-.995h.733c4.75,0,8.468-1.93,9.554-7.51.447-2.3.22-4.223-.937-5.586Z" transform="translate(575.077 470.662)" fill="#fff"/>
+  </g>
+</svg>

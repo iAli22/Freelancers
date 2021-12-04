@@ -1,0 +1,18 @@
+@import "../../../styles/_variables.scss";
+
+.mainInput {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  &::placeholder {
+    color: $black;
+  }
+
+  &:focus,
+  &:focus {
+    outline: none;
+  }
+}

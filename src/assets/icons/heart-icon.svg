@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="39" viewBox="0 0 39 39">
+  <g id="Group_1" data-name="Group 1" transform="translate(-493 -884)">
+    <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(493 884)" fill="none" stroke="#00c7d4" stroke-width="1">
+      <circle cx="19.5" cy="19.5" r="19.5" stroke="none"/>
+      <circle cx="19.5" cy="19.5" r="19" fill="none"/>
+    </g>
+    <path id="Icon_material-favorite" data-name="Icon material-favorite" d="M10.628,18.5l1.106-1.007c3.928-3.562,6.522-5.912,6.522-8.8a4.155,4.155,0,0,0-4.2-4.2,4.568,4.568,0,0,0-3.433,1.594A4.568,4.568,0,0,0,7.2,4.5,4.155,4.155,0,0,0,3,8.7c0,2.883,2.593,5.233,6.522,8.8Z" transform="translate(501.5 892)" fill="none" stroke="#00c7d4" stroke-width="2"/>
+  </g>
+</svg>

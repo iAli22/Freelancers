@@ -1,0 +1,32 @@
+@import "../../styles/_variables.scss";
+
+.searchTag {
+  ul {
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 14px;
+    .resetAll {
+      background: none !important;
+      cursor: pointer;
+      &:hover {
+        color: #154ed4;
+      }
+    }
+    svg {
+      margin-inline-start: 5px;
+      cursor: pointer;
+      &:hover {
+        fill: #154ed4;
+      }
+    }
+    li {
+      display: inline-block;
+      background: #ffffff;
+      padding: 5px 10px;
+      margin: 0.25rem;
+      a {
+        color: #000000;
+      }
+    }
+  }
+}

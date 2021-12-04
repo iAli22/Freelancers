@@ -1,0 +1,79 @@
+@import "../../../styles/_variables.scss";
+
+.login {
+  padding: 2rem 3rem;
+  min-height: 500px;
+  .disable {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  @media (max-width: 600px) {
+    padding: 2rem 2rem;
+  }
+
+  a:hover {
+    color: inherit;
+  }
+  &__logo {
+    width: 35% !important;
+    margin: 0 auto 1rem auto;
+  }
+  h3 {
+    display: inline-block;
+    margin: 0 auto 1rem auto;
+  }
+
+  form {
+    button {
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: 2rem 0 1rem 0;
+      background-color: $blue-200;
+      color: $white;
+      border: none;
+      padding: 0.5rem 0;
+      font-weight: 500;
+    }
+
+    a {
+      color: black;
+      font-size: $fontSmall;
+    }
+  }
+
+  &__footer {
+    margin-top: 2rem;
+    text-align: center;
+    &__top {
+      margin-bottom: 3rem;
+      font-size: $fontSmall;
+
+      a {
+        color: #bebebe;
+      }
+      .icons {
+        margin-top: 1rem;
+        img {
+          width: 15px;
+
+          &:first-child {
+            margin-inline-end: 0.5rem;
+          }
+        }
+      }
+    }
+
+    &__bottom {
+      font-size: $fontSmall;
+      margin: 0;
+
+      a {
+        color: $blue-200;
+        padding-inline-start: 0.5rem;
+        font-size: $fontNormal !important;
+        font-weight: bold;
+      }
+    }
+  }
+}

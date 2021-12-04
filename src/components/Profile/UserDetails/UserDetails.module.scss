@@ -1,0 +1,117 @@
+@import "../../../styles/_variables.scss";
+
+.userDetail {
+  background: #1264d4;
+  padding: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.userDetailUl {
+  padding: 0px;
+  color: $white;
+  font-family: "Conv_SEGOEUI";
+  li {
+    display: inline-block;
+    margin-inline-end: 25px;
+    ul {
+      li {
+        display: block;
+        color: $white;
+        font-family: "Conv_seguisb";
+      }
+      li.userLocation {
+        font-size: 12px;
+        margin-top: 15px;
+      }
+    }
+  }
+  li.userAvtar {
+    position: relative;
+    span {
+      background: #14a800;
+      padding: 5px;
+      position: absolute;
+      border-radius: 20px;
+      border: 5px solid $white;
+      left: 2px;
+    }
+    img {
+      width: 75px;
+      height: 75px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}
+.userName {
+  font-size: 19px;
+  color: $white;
+  span {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-inline-start: 5px;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      fill: #fff;
+      width: 12px;
+    }
+  }
+}
+.userLocation {
+  li {
+    span {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 5px 8px;
+      border-radius: 5px;
+      margin-inline-start: 5px;
+      width: 30px;
+      height: 30px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        fill: #fff;
+        width: 12px;
+      }
+    }
+    color: $white;
+    display: block;
+    font-size: 12px;
+  }
+  padding: 0px;
+  margin: 0px;
+}
+.profileSettingUl {
+  font-family: "Conv_seguisb";
+  padding: 0px;
+  text-align: end;
+  margin-top: 15px;
+  li {
+    display: inline-block;
+    margin-inline-start: 20px;
+    button {
+      font-size: 12px;
+      border-radius: 50px;
+      padding: 10px 20px;
+    }
+    .viewProfile {
+      background: none;
+      border: 2px solid $white;
+    }
+    .profileSetting {
+      background: #00c7d4;
+    }
+    .viewProfile {
+      background: none;
+      border: 2px solid #ffffff;
+    }
+  }
+}

@@ -1,0 +1,118 @@
+@import "../../../styles/_variables.scss";
+
+.offerContent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  .show {
+    margin-bottom: 20px;
+    p {
+      margin-bottom: 0px;
+    }
+    svg {
+      color: #000000;
+    }
+  }
+  .changeTerms {
+    background: #00c7d4 !important;
+    border-radius: 50px;
+    border: 0px !important;
+    padding: 10px 30px;
+    color: #ffffff !important;
+    float: left;
+    margin-top: 0px !important;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+  h2 {
+    margin-bottom: 10px !important;
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+    }
+  }
+  p {
+    line-height: 1.5rem;
+    padding: 0;
+    margin: 0;
+    span {
+      display: block;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      font-family: "Conv_SEGOEUI";
+    }
+  }
+  h4 {
+    color: #ff5100;
+    font-size: 18px;
+    span {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 10px;
+      font-family: "Conv_SEGOEUI";
+      margin-left: 10px;
+      .bi {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+.mobileAppDesign {
+  margin-top: 60px;
+  .mobileApp {
+    .invoice {
+      background: none !important;
+      border: 1px solid #000000 !important;
+      color: #000000 !important;
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    p {
+      span {
+        display: inline-block;
+        margin-top: 0 !important;
+        margin-inline-end: 3px;
+      }
+    }
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    button {
+      min-width: 200px;
+    }
+  }
+  .mobileAppTitle {
+    margin-bottom: 0px;
+  }
+  span {
+    display: block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-family: "Conv_SEGOEUI";
+  }
+  h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+  ul {
+    li {
+      display: inline-block;
+      width: 19%;
+      .bi {
+        color: #00c7d4;
+      }
+    }
+    padding: 0px;
+  }
+}

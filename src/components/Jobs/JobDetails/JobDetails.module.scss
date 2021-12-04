@@ -1,0 +1,90 @@
+.offerContent {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0px;
+  p {
+    font-size: 17px !important;
+    font-family: "Conv_SEGOEUI" !important;
+  }
+}
+
+.offerContentTitle {
+  overflow: hidden;
+
+  h3 {
+    float: right;
+  }
+}
+
+.detailBtn {
+  text-align: center;
+  button {
+    color: #ffffff;
+    border-radius: 50px;
+    background-image: linear-gradient(to right, #154ed4, #00c7d4);
+    border: 0px;
+    padding: 15px 50px;
+
+    a {
+      color: #fff;
+    }
+  }
+}
+.mobileAppDesign {
+  margin-top: 60px;
+  span {
+    display: block;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-family: "Conv_SEGOEUI";
+  }
+  h2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+    margin-top: 30px;
+  }
+}
+
+.experience ul {
+  font-size: 14px !important;
+  padding: 0px;
+  font-size: 11px;
+  color: #000000;
+  margin-top: 20px;
+
+  li {
+    padding: 5px 10px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+
+    a {
+      color: #000000;
+    }
+  }
+}
+
+.heartIcon {
+  float: left;
+  width: 39px;
+  height: 39px;
+  background: url("../../../assets/icons/heart-icon.svg") no-repeat;
+  &:hover {
+    float: left;
+    width: 39px;
+    height: 39px;
+    background: url("../../../assets/icons/heart-iconFill.svg") no-repeat;
+  }
+}
+.heartIcon.selected {
+  float: left;
+  width: 39px;
+  height: 39px;
+  background: url("../../../assets/icons/heart-iconFill.svg") no-repeat;
+}

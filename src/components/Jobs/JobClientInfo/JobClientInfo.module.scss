@@ -1,0 +1,68 @@
+.offerProfile {
+  background: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+
+  .userProfile {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-top: 30px;
+    span {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+      display: block;
+      padding-top: 10px;
+    }
+  }
+
+  ul {
+    text-align: right;
+    padding: 0px;
+    min-height: 400px;
+    li {
+      display: block;
+      padding: 10px 0px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      .bi {
+        padding-left: 10px;
+      }
+      a {
+        color: #000000;
+        text-decoration: none;
+        display: initial;
+        &:hover {
+          color: #154ed4;
+        }
+      }
+    }
+    li.active {
+      > a {
+        color: #154ed4;
+      }
+    }
+  }
+}
+.viewContractPop {
+  padding-top: 50px;
+}
+
+.projectPercent {
+  text-align: right;
+  width: 100%;
+  line-height: 50px;
+  padding-top: 10px;
+  span {
+    float: left;
+    border: 2px solid #00c7d4;
+    border-radius: 50%;
+    min-width: 60px;
+    min-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

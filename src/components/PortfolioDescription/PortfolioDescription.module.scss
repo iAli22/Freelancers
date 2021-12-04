@@ -1,0 +1,54 @@
+@import "../../styles/_variables.scss";
+
+.portfolioDescription {
+  margin-top: 35px;
+  padding-top: 30px;
+  p {
+    padding: 0;
+  }
+  h2 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+    font-family: "Conv_SEGOEUI";
+    margin-bottom: 20px;
+    li {
+      padding-bottom: 15px;
+      a {
+        color: #000000;
+      }
+      img {
+        width: 20px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.progressBar {
+  background: #ff5100 !important;
+}
+.progress {
+  background: #ffffff !important;
+  height: 8px !important;
+  border-radius: 0px !important;
+  width: 80%;
+  float: right;
+  margin-top: 7px;
+}
+.percentage {
+  float: left;
+  font-size: 14px;
+}
+.progressBox {
+  h1 {
+    &::before {
+      display: none;
+    }
+    margin-bottom: 10px !important;
+  }
+}

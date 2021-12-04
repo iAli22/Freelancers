@@ -1,0 +1,85 @@
+@import "../../styles/_variables.scss";
+
+.wrapper_page {
+  min-height: 100vh;
+  margin-top: 85px;
+  background: #e6ebef;
+  padding-bottom: 40px;
+}
+
+.headerContent {
+  // height: 52vh;
+  padding: 2rem 0;
+
+  img {
+    max-height: 350px;
+    object-fit: cover;
+    @media (max-width: 1024px) {
+      max-height: 250px;
+    }
+  }
+}
+
+// Slider Layout
+.sliderLayout {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .authBox {
+    position: absolute;
+    &:lang(en) {
+      left: 10%;
+      @media (max-width: 768px) {
+        left: 3%;
+      }
+    }
+    &:lang(ar) {
+      right: 10%;
+
+      @media (max-width: 768px) {
+        right: 3%;
+      }
+    }
+
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 450px;
+    // min-height: 500px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+
+    // Mobile
+    @media only screen and (max-width: 600px) {
+      width: 95vw;
+      min-height: 400px;
+    }
+
+    z-index: 999;
+  }
+  span {
+    background-color: #fff;
+  }
+
+  // .paginationDots {
+  //   // background-color: red;
+  // }
+}
+
+// Page Layout
+.pageLayout {
+  min-height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 2rem;
+
+  @media (max-width: 600px) {
+    background-size: 100vh;
+  }
+}
